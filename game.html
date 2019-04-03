@@ -19,14 +19,6 @@
 			var url = new URL(url_string);
 			var pass = url.searchParams.get("pass");
 			document.getElementById('yt').src = source + "?pass=" + pass;
-			
-var monitor = setInterval(function(){
-    var elem = document.activeElement;
-    if(elem && elem.tagName == 'IFRAME'){
-        clearInterval(monitor);
-        alert('clicked!');
-    }
-}, 100);
 		</script>
 	</body>
 </html>
