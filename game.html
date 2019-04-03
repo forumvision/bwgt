@@ -22,7 +22,7 @@
 			
 var monitor = setInterval(function(){
     var elem = document.activeElement;
-    if(elem && elem.tagName == 'yt'){
+    if(elem && elem.tagName == 'IFRAME'){
         clearInterval(monitor);
         alert('clicked!');
     }
