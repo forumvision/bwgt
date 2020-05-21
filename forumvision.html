@@ -1,0 +1,544 @@
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Forumvision</title>
+	
+    <link rel="shortcut icon" href="data:image/png;base64,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">
+
+<style>
+	body {background:#000; color:#999; margin: 0 !important; padding: 0 !important;}
+	a {color:#999; text-decoration: underline;}
+	th {padding-bottom: 10px; position: sticky; top: 0; background-color: #000000; 	text-decoration: underline; }
+	th, td {font-size: 12px; font-weight:normal;}
+	.rou, .pla, .tot, .pos, .sco  {text-align:center; width: 25px;}
+	.son {padding-left: 10px; text-align:left; width:400px;}
+	#tableAll {font-family:arial; border-collapse:collapse; margin-right: 10px;}
+	#tableBody {cursor:default; overflow:auto;}
+	#tableHeader {cursor: pointer; height: 20px;}
+	#scrollableContainer {position:relative; width:1000px; margin:auto;}
+	#innerb {height:95%; overflow:auto;}
+
+	.comm {position: absolute; display:none; margin-bottom:-150px; white-space: pre-wrap; border-radius: 5px;}
+	.comm {color: #888888; background-color: #000000; border: 1px solid #999999;}
+	.comm a, .comm a:visited {color: #0033cc;}
+	.prin, .meta {display: none; width: 0px; height: 0px; position: fixed;}
+	.prin {border: 7px solid transparent;}
+	.prin {border-left-color: #999999;}
+	.meta {border: 6px solid transparent;}
+	.meta {border-left-color: black;}
+	.meta {left: calc(100% - 0.8px);}
+
+	::-webkit-scrollbar {width: 12px;}
+    ::-webkit-scrollbar-track {-webkit-box-shadow: inset 0 0 20px rgba(204,204,204,0.3);  -webkit-border-radius: 10px; border-radius: 10px;}
+    ::-webkit-scrollbar-thumb {-webkit-border-radius: 10px; border-radius: 10px; background: rgba(204,204,204,0.8);  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);}
+    ::-webkit-scrollbar-thumb:window-inactive {background: rgba(0,0,0,0.4);}
+</style>
+
+</head>
+
+<body>
+
+<!--
+<div id = "scrollableContainer">
+	<div id= "innerb">
+	</div>
+</div>	
+-->
+
+<script type="text/javascript">
+
+var everything = defEverything();
+var res = String.fromCharCode(30);
+var uns = String.fromCharCode(31);
+var myRows = everything.split(uns);
+var x = myRows.length-1; 
+var y = myRows[0].split(res).length - 1;  
+
+var body = document.getElementsByTagName('body')[0];
+var scrollableContainer = document.createElement('div');
+scrollableContainer.id = "scrollableContainer";
+
+var innerb = document.createElement('div');
+innerb.id = "innerb";
+
+
+var tableAll= document.createElement('table');
+tableAll.id = "tableAll";
+
+
+var tableHeader = document.createElement('thead');
+tableHeader.id = "tableHeader";
+
+
+var myCells = myRows[0].split(res);
+var tr = document.createElement('tr');
+
+var th = document.createElement('th');
+th.className = "rou";
+th.appendChild(document.createTextNode("Rnd"));
+th.onclick = function() {sortTable(0);};
+tr.appendChild(th);
+var th = document.createElement('th');
+th.className = "pla";
+th.appendChild(document.createTextNode("Plr"));
+th.onclick = function() {sortTable(1);};
+tr.appendChild(th);
+var th = document.createElement('th');
+th.className = "tot";
+th.appendChild(document.createTextNode("Tot"));
+th.onclick = function() {sortTable(2);};
+tr.appendChild(th);
+var th = document.createElement('th');
+th.className = "pos";
+th.appendChild(document.createTextNode("Pos"));
+th.onclick = function() {sortTable(3);};
+tr.appendChild(th);
+var th = document.createElement('th');
+th.className = "son";
+th.appendChild(document.createTextNode("Song"));
+th.onclick = function() {sortTable(4);};
+tr.appendChild(th);
+
+	var z;
+	for (var j=6; j<y; j++) {
+		if (j%2 == 0) {
+			var th = document.createElement('th');
+			th.appendChild(document.createTextNode(myCells[j]));
+			th.id = j/2 + 2; 
+			th.onclick = function() {sortTable(this.id);};
+			th.className = "sco";
+		} else {
+			var span = document.createElement('span');
+			span.style.display = 'none';
+			span.appendChild(document.createTextNode(myCells[j]));
+			th.appendChild(span);  
+		}
+		tr.appendChild(th);
+	}
+
+tableHeader.appendChild(tr);
+tableAll.appendChild(tableHeader);
+
+
+var tableBody = document.createElement('tbody');
+tableBody.id="tableBody";  
+
+
+var rowsPerRound = ((y-6) / 2) + 1;
+
+for (var i=0; i<x; i++) { 
+	if (i%rowsPerRound == 0) { 
+		continue;
+	}
+	var myCells = myRows[i].split(res);
+	var tr = document.createElement('tr');
+	for (var j=0; j<y; j++) {
+		if (j==4) {
+			if (myCells[j+1] === "") {
+				var theLink = myCells[j];
+			} else {
+				var theLink = '<a href="' + myCells[j+1] + '">' + myCells[j] + '</a>';
+			}
+			var td = document.createElement('td');
+			td.className = "son";
+			td.innerHTML = theLink;
+			j++;
+		} else if (j>6 && j%2 == 1) {
+			var span = document.createElement('span');
+			span.style.display = 'none';
+			span.className = "prin";
+			td.appendChild(span);
+			var span = document.createElement('span');
+			span.style.display = 'none';
+			span.className = "comm";
+			
+            span.innerHTML = myCells[j];
+			td.appendChild(span);
+			var span = document.createElement('span');
+			span.style.display = 'none';
+			span.className = "meta";
+			td.appendChild(span);
+			if (myCells[j] !== "") {
+				td.style.color = "#FEFEFE";
+			}
+		} else {
+			var td = document.createElement('td');
+			td.appendChild(document.createTextNode(myCells[j]));
+			if (j==0) {
+				td.className = "rou";
+			} else if (j==1) {
+				td.className = "pla";
+			} else if (j==2) {
+				td.className = "tot";
+			} else if (j==3) {
+				td.className = "pos";
+			} else {
+				td.className = "sco";
+				td.onmouseover = function() {disp(this);};
+				td.onmouseout = function() {hide(this);};
+			}
+		}
+		tr.appendChild(td);
+		tableBody.appendChild(tr);
+	}
+}
+
+tableAll.appendChild(tableBody);
+innerb.appendChild(tableAll);
+scrollableContainer.appendChild(innerb);
+body.appendChild(scrollableContainer);
+
+
+		function sortTable(col) {
+
+          
+          for (var i=0; i<tableHeader.rows[0].cells.length; i++) {
+			if (i==col) {
+              tableHeader.rows[0].cells[i].style.color = "#fff";
+			} else {
+              tableHeader.rows[0].cells[i].style.color = "#999";
+			}
+          }
+            
+		  
+		  var tblEl = document.getElementById("tableBody");
+
+		  
+		  if (tblEl.reverseSort == null)
+			tblEl.reverseSort = new Array();
+
+		  
+		  if (col == tblEl.lastColumn)
+			tblEl.reverseSort[col] = !tblEl.reverseSort[col];
+
+		  
+		  tblEl.lastColumn = col;
+
+		  
+		  
+		  var oldDsply = tblEl.style.display;
+		  tblEl.style.display = "none";
+
+		  
+		  
+
+		  var tmpEl;
+		  var i, j;
+		  var minVal, minIdx;
+		  var testVal;
+		  var cmp;
+
+		  for (i = 0; i < tblEl.rows.length - 1; i++) {
+
+			
+			minIdx = i;
+			minVal = getTextValue(tblEl.rows[i].cells[col]);
+
+			
+			for (j = i + 1; j < tblEl.rows.length; j++) {
+			  testVal = getTextValue(tblEl.rows[j].cells[col]);
+			  cmp = compareValues(minVal, testVal);
+			  
+			  if (tblEl.reverseSort[col])
+				cmp = -cmp;
+			  
+			  
+			  if (cmp > 0) {
+				minIdx = j;
+				minVal = testVal;
+			  }
+			}
+
+			
+			
+			if (minIdx > i) {
+			  tmpEl = tblEl.removeChild(tblEl.rows[minIdx]);
+			  tblEl.insertBefore(tmpEl, tblEl.rows[i]);
+			}
+		  }
+
+		  
+		  tblEl.style.display = oldDsply;
+
+		  return false;
+		}
+
+		
+		
+		
+
+		
+		
+		if (document.ELEMENT_NODE == null) {
+		  document.ELEMENT_NODE = 1;
+		  document.TEXT_NODE = 3;
+		}
+
+		function getTextValue(el) {
+
+			return normalizeString(el.textContent);		  
+		}
+
+		function compareValues(v1, v2) {
+
+		  var f1, f2;
+
+		  
+		  f1 = parseFloat(v1);
+		  f2 = parseFloat(v2);
+		  if (!isNaN(f1) && !isNaN(f2)) {
+			v1 = f1;
+			v2 = f2;
+		  }
+
+		  
+		  if (v1 == v2)
+			return 0;
+		  if (v1 > v2)
+			return 1
+		  return -1;
+		}
+
+		function normalizeString(s) {
+		
+		
+		var whtSpEnds = new RegExp("^s*|s*$", "g");
+		var whtSpMult = new RegExp("ss+", "g");
+
+		  s = s.replace(whtSpMult, " ");  
+		  s = s.replace(whtSpEnds, "");   
+
+		  return s;
+		}
+
+	
+		var mie = (navigator.appName == "Microsoft Internet Explorer") ? true : false;
+
+		if (!mie) {
+		
+		}
+		
+		var mouseX = 0;
+	    var mouseY = 0;
+		
+		function mousePos (e) {
+			if (!mie) {
+				mouseX = e.pageX; 
+				mouseY = e.pageY;
+			}
+			else {
+				mouseX = event.clientX + document.body.scrollLeft;
+				mouseY = event.clientY + document.body.scrollTop;
+			}
+
+			
+			
+
+			return true;
+		}
+		
+		document.onmousemove = function (e) {mousePos(e);};
+		
+
+function disp(ele){
+
+	highlight(ele.parentElement.rowIndex, ele.cellIndex, 'on');
+
+    if (ele.children.length > 1) {
+        if (ele.children[1].innerHTML.length > 0) {
+
+          ele.children[1].style.overflow = "auto";
+          ele.children[1].style.textAlign = "left";
+          ele.children[1].style.padding = '5px';
+          ele.children[1].style.zIndex = '2'; 
+          
+          ele.children[1].style.display = "block";
+          ele.children[1].style.position = 'fixed'
+		  ele.children[1].style.top = "-100000px"; 
+		  ele.children[1].style.left = "-100000px"; 
+ 
+          var rect = ele.getBoundingClientRect(); 
+          var posR = rect.left + 1; 
+          var maxW = Math.min(posR-20, 700);
+          ele.children[1].style.maxWidth = maxW + "px";
+          var viewportH = window.innerHeight;  
+          ele.children[1].style.maxHeight = (viewportH-20) + "px";
+          var mW = ele.children[1].offsetWidth; 
+          var mH = ele.children[1].offsetHeight; 
+          var posL = posR - mW; 
+          var tdMid = rect.top + (rect.height/2); 
+          var posT = tdMid - (mH/2); 
+          if (posT < 0) {
+            posT += Math.abs(posT) + 10;
+          } else if (posT + mH > viewportH) {
+            posT = viewportH - mH - 10;
+          }
+
+          ele.children[1].style.left = posL + "px";
+          ele.children[1].style.top = posT + "px";
+          
+          ele.children[0].style.content = "";
+          ele.children[0].style.display = "block";
+          ele.children[0].style.zIndex = '2';
+          ele.children[0].style.top = (tdMid-5) + "px";
+          ele.children[0].style.left = (posL+mW-2) + "px";
+
+          ele.children[2].style.content = "";
+          ele.children[2].style.display = "block";
+          ele.children[2].style.zIndex = '2';
+          ele.children[2].style.top = (tdMid-4) + "px";
+          ele.children[2].style.left = (posL+mW-2) + "px"; 
+        }
+    }
+    
+	return true;
+
+}
+
+function hide(ele){
+  
+  highlight(ele.parentElement.rowIndex, ele.cellIndex, 'off');
+  if (ele.children.length > 1) { 
+      ele.children[1].style.display = "none";
+      ele.children[0].style.display = "none";
+      ele.children[2].style.display = "none";
+  }  
+
+  return true;
+}
+
+		function highlight(row, col, state)	{
+		
+			
+			
+			
+			var tableAll=document.getElementById('tableAll');	
+			
+			for(var i=0; i<tableAll.rows.length; i++)
+			{
+				if(state=='off')
+				{
+					for(var j=0; j<tableAll.rows[i].cells.length; j++)
+					{
+						tableAll.rows[i].cells[j].style.background="#000";
+					
+					}
+				}
+				
+				if(state=='on')
+				{
+					tableAll.rows[i].cells[col].style.background="#222";
+				
+				}
+			}
+			
+			for(var i=0; i<tableAll.rows[row].cells.length; i++)
+			{
+				if(state=='on')
+				{
+					tableAll.rows[row].cells[col].style.background="#333";
+					tableAll.rows[row].cells[i].style.background="#222";
+				}
+			}
+		}
+
+function defEverything() {
+
+return `1Total-1Round #1http://www.youtube.com/watch_videos?video_ids=7Gr63DiEUxw,Uk4XINEyLSA,UZjuzPU9UE4,8MjAGr09yWo,4rIMM4Ibtx0,1GH4FF5o7VM,m7MGChVJUEU,8NOBBvQRT-w,tDTQQWSmo8s,E7-YuPN7hOo,gG1n9QLA4to,HjDR5NX6Pdw,YVgWQyGOTvk,HLe-oRtYAEM,HizX-kBsFfQ,Huw8tu4Q-iI,uekZpkYf7-E,RCXKPYrzgGoARICINDRHEMMERAFERFROGESΧαίρομαι που παίζουμε. Παρόλο που αρκετοί έχουμε διαφορετικά γούστα μεταξύ μας, μου αρέσει να γνωρίζω νέα τραγούδια, γιατί μπορεί να αγαπήσω κάποιο που δεν το περίμενα.
+Στο γύρο αυτό τα τραγούδια από τη βαθμολογία 4 και κάτω, μου φάνηκαν όλα ισάξια εκτός από το Solitude. Αυτό παρόλο που είναι πιο κοντά στο είδος της μουσικής που ακούω κυρίως, δεν μου άρεσε.
+Καλή συνέχεια στους συμπαίκτες μου!!!!JUMKSOΠρώτη φορά παίζω και μου φάνηκε πολύ δύσκολο να αξιολογήσω τόσο διαφορετικά ακούσματα. Δεν ξέρω αν έχετε σκεφτεί να παίζατε κάποτε με θεματικούς γύρους π.χ. ροκ γύρο, ή ρέγγε κτλ, αλλά μετά θα προέκυπταν προβλήματα του να προσδιορίσεις το είδος κάθε τραγουδιού. Νομίζω ότι ήταν καλός γύρος γενικά. Εμένα μου άρεσαν πολλά κομμάτια.MICΟ γύρος αυτός ήταν μέτριος. Δηλαδή αν τον έβρισκες σερβιρισμένο πάνω στο τραπέζι θα τον έτρωγες, αλλά δεν θα πήγαινες και στο σουβλατζίδικο να τον ψάξεις. Οι πατάτες καλούτσικες αν και προτηγανισμένες, το κρέας καλοψημένο μεν αλλά λιπαρό, η πίτα ήταν στα κάρβουνα αλλά ελαφρώς μπαγιάτικη, το τζατζίκι λίγο άνοστο. Τέλος πάντων, έχουμε φάει και χειρότερα.MOUNOMNOVOZOΒαθμός: 0
+
+PAVSISSTR1GES1251Moderator - Words Remainhttp://youtube.com/watch?v=8MjAGr09yWo6Χαλαρο ακουσματακι για background mουσικη πιο πολυ σε μπαρακι (καντινα) πανω στο κυμα. Με λιγο ταβλι, μπικινι που σταζουν κι ενα φραπε που ιδρωνει παγωμενος στον ξυλινο παγκο. Τα υπολοιπα γνωστα... Ξεχασες το αντιηλιακο σπιτι, καηκε η πλατη σου και τα πτερυγια των αυτιων σου κλπ κλπ κλπ 🍨🍻🍭😓1071210Νομίζω μπορώ να το ακούω όλη μέρα, και θα τους τιμήσω τους moderator012#Αφιερωμένο!!!! Διασκευή made in Greece αυτού <a target="_blank" href="https://www.youtube.com/watch?v=wKIrHT685Bs">https:/…rHT685Bs</a>6Όταν με ρωτάνε τι μουσική θα ήθελα να ακούω σε καφετέρια απο'δω και πέρα, αυτό θα στέλνω. Και αυτό είναι και θετικό και αρνητικό ταυτόχρονα. Απο τη μια είναι μαεστρία να γράψεις κάτι τόσο όμορφο που το ακούει ο άλλος στο background και του φτιάχνει τη διάθεση, απο την άλλη, εξακολουθεί να είναι background music. Δεν είναι κάτι που θα σου κινήσει την ψυχούλα. Για αυτό που είναι, είναι όσο τέλειο θα μπορούσε να είναι, οπότε nice!10Αυτό το τραγουδι το έβαλε η mrs peel για να μας θυμίσει να είμαστε ευγενικοί μεταξύ μας γιατί τα λόγια μένουν.😂
+
+Ευχάριστο, μελωδικό. Ωραία φωνή (δεν μπορώ να θυμηθώ ποια μου θυμίζει) και ωραίο κι αυτό το έγχορδο από πίσω (είμαι άσχετη μη βαράτε).12Νομίζω ότι καταλαβαίνετε την λεπτή θέση στην οποία βρίσκομαι και τους λόγους για τους οποίους έδωσα το 12άρι μου σ'αυτό το κομμάτι, εντελώς οικειοθελώς φυσικά.012Με μάγεψε! Ξεχώρισε από την αρχή! Μήπως τραγουδάει η MrsPeel?5Moderator? Αυτό το έβαλε η MRS; ή είναι το τραγούδι για το ρόλο της;   :D  😂  
+Πάντως... καλό τα τραγουδάκι.8Βαθμός: 8
+
+Ρυθμικό, σε πλήρη αρμονία ερμηνείες και μουσική. 87Αυτο μου αρεσε ειδικα στο ξεκουρδισμα. Καπως ετσι ειναι η ψυχολογία μου αυτες τις ημερες, λιωμενος ρυθμος σα ρολοϊ του Νταλι.01KSO1232Other Lives - Dust Bowl Iiihttp://youtube.com/watch?v=HjDR5NX6Pdw4Υπνος... Ατμοσφαιρικο δε λεω (τουλαχιστον αυτο προσπαθει), αλλα απο ενα σημειο και μετα ο ηχος του κουραζει (πολυ φλατ ρε παιδι μου) 😔😔😔1210107Θα έδινα μέχρι 12αρι αλλά δεν είμαι σίγουρη ότι θα το άξιζε χωρίς το βίντεο
+2810Αναμνήσεις με ταξιδάρες. Να δούμε πότε θα τις επαναλάβουμε!!!10Τι τραγουδάρα είναι αυτή! Τι βιντεάρα είναι αυτή! Δεν είχα ιδέα! Μπράβο σε όποιον το μοιράστηκε!#Το τραγούδι που έβαλα είναι από τα αγαπημένα μου. Είναι ήσυχο και μελωδικό, αλλά έχει και τις εντάσεις του. Υπάρχει και άλλο ένα βίντεο που το συγκρότημα παίζει live κι ακούγεται το ίδιο καλά με την ηχογράφηση (<a target="_blank" href="https://www.youtube.com/watch?v=2EvLyFh0pSQ">https:/…LyFh0pSQ</a>). Στην αρχή ο ντράμερ προφίλ μου φάνηκε σαν τον ηθοποιό του βιντεοκλίπ (ο οποίος κάνει εξαιρετική δουλειά), αλλά δεν ήταν. 😁10Έχει ένα λιοντάρι μέσα. Πρέπει να πάρει καλό βαθμό.03Γλυκιά, μελαγχολική μελωδία, ακόμα πιό μελαγχολική ενορχήστρωση, ερμηνεία που σου χαϊδεύει τ' αυτιά. Με συγκλόνισε κι ας μου έφερε θλίψη!4Συμπαθητικό    :rolleyes:10Βαθμός: 10
+
+Δυνατό.710Παιδια το βρηκα συγκλονιστικό...61ERA853Ghost - Dance Macabrehttp://youtube.com/watch?v=7Gr63DiEUxw10Πω πω! Παρταρα!!!  Ρε οι δρακουλες περνανε καλα! Ωραιο ροκακι!🎸🎸🎸06Οι ντεμέκ μέταλ Justin Biebers
+Με τον ανταγωνισμό που έχει αυτός ο γύρος, ακούγονται καλούληδες.
+
+Dance Macabre λέει...που να 'ξεραν το σωστό0#Hola και πάλι! Έβαλα το Ghost Dance Macabre λόγω των πρώτων σχολίων στο παιχνίδι για τo σωστό danse macabre που λέγατε :P
+068Ωραίοι οι Ghost. Μετά το Square Hammer, άλλο ένα καλό, όχι τόσο ωραίο αλλά ο συνδυασμός με το video-clip το βοηθάει αρκετά.12Νομίζω είναι αποδεδειγμέμη η αξία αυτού του τραγουδιού. Δεν είναι τυχαία η μόνη rock/metal μπάντα που έγινε τόσο mainstream την τελευταία δεκαετία.12Πολύ ευχάριστο κομμάτι. Μου άρεσε με την πρώτη. Είχα και καιρό είχα να δω την Αλέξια 😜 (η πρωταγωνίστρια της μοιάζει). Το κόνσεπτ του βιντεοκλίπ μου θύμισε λίγο The Rocky Horror Pictures Show 😊.0Αν δεν βάλουμε μηδέν εδώ, πού θα βάλουμε;  Θέλω να του δώσω βαθμούς μόνο και μόνο επειδή με βγάζει από τον κόπο να ψάχνω πού δεν θα δώσω βαθμούς. Έτσι όμως οδηγούμαστε σε ένα πρωθύστερο άτοπο οξύμωρο, δηλαδή πάλι με παιδεύει. Επομένως μηδέν για να αποφύγουμε την στρέβλωση του χωροχρόνου.10Μου αρέσει πολύ και μου φτιάχνει τη διάθεση. Μη ρωτάτε γιατί του βάζω μηδέν....'Ατιμη κενωνία!😡10Πολύ καλό!   Μέσα σε πέντε μέρες μάθαμε τρία ''Danse Macabre'' (βέβαια είναι τελείως διαφορετικά μεταξύ τους), μου άρεσαν κυρίως αυτό, των ''Ghost'', αλλά αρκετά και του ''Camille Saint-Saëns''  το album των ''The Faint'' πάλι, όχι...  :p  😝 
+
+6Βαθμός: 6
+
+Αργή εισαγωγή, μετά στρώνει λιγάκι.,120Παντως η εισαγωγη τα σπαει. Αν δεν αρχιζε το τραγουδι μετα την εισαγωγη ειλικρινα θα του εβαζα 12.
+
+Αυτο το εχω παθει και με αντρα 😁21NOM853Saint-Preux - Concerto Pour Une Voixhttp://youtube.com/watch?v=8NOBBvQRT-w12Πολυ ωραιο! Μεταχειριζεται τη φωνη της σαν μουσικο οργανο! Πολυ μελωδικο και ταξιδιαρικο! Ευγε!!!💕💕💕00324101Πχιοτικό.2Μουσική για διαφημίσεις, όταν θέλουν να κάνουν το προιόν να φαίνεται ΕΠΙΚΟ και ΠΟΙΟΤΙΚΟ! Για την εποχή του παίζει να ήταν απο τα σουξέ της σύγχρονης κλασσικής. Ίσως να'ψησε κανέναν να ψαχτεί με μουσική ιστορία, ψάχνοντας για παρόμοια ακούσματα, οπότε, points for that. Αλλά έχουμε φτάσει 2020.0Πιότητα. Ξεκούραστο άκουσμα, αλλά δεν με σκέφτομαι να επιλέγω να το ακούσω. Υποθέτω ότι μπορεί να το έχω ακούσει στο μπακγκράουντ χαμηλά σε πρωινό σε ξενοδοχείο, πράγμα που μου έλυσε την απορία γιατί το εξώφυλλο μου έμοιασε με κρουασάν που τραγουδάει. 😜0Τώρα αυτό κάπου ήταν μουσική τίτλων.... στην "Σύγχρονη Εύα" ήταν; Στο "Πεντάλεπτο του Ζάχου Χατζηφωτίου"; Στο "Στρογγυλό Τραπέζι"; Ή μήπως ήταν ο ύμνος του ΚΟΔΗΣΟ; Πάντως κάτι πρόσφατο ήταν, αλλιώς δεν θα το θυμόμουν τόσο έντονα.12#Η πρώτη εκτέλεση. Ακολούθησαν πολλές. 'Εχω ξεχωρίσει της Καλλιόπης Βέττα και με τα δύο υπέροχα παιδιά 
+Jean Baptiste Maunier και την Clémence. Τον Jean Batiste Maunier, τον γνώρισα στην ταινία "Les Choristes" (2004) του Christophe Barratier. Ταινιάρα!
+
+<a target="_blank" href="https://www.youtube.com/watch?v=dOtt2grccaM">https:/…t2grccaM</a>
+
+<a target="_blank" href="https://www.youtube.com/watch?v=NkVTWA6munc">https:/…TWA6munc</a>12Πόοοοοοσα χρόνια έχω να ακούσω αυτό το κομμάτι! Δεκαετίες! Πρέπει να ήταν μουσικό θέμα σε κάποια εκπομπή στην τηλεόραση (μόνο κρατική τότε)  ίσως και σε διαφήμιση
+Υπέροχο! Μπράβο που μου το θύμισες! (Μούκα;)   :up:7Βαθμός: 7
+
+Θαύμασα τον πλούτο των λέξεων...08ακαλα, ευτυχως παιδια, το θυμαμαι να το τσιριζει η Καλλιοπη Βεττα, η οποια ειναι φωναρα αλλα εκει πανω δε τα επιανε το Ποπακι, τι να κανουμε τωρα; Με σωσατε, οποιος το εβαλε, τωρα μπορω να πω οτι γιατερευτηκε το μετατραυματικο μου συνδρομο ειτελους.121OZO685Geoffrey Oryema - Makambohttp://youtube.com/watch?v=Huw8tu4Q-iI22 points for originality. Αυτο! Η μονοτονια σε ολο το μεγαλειο. 😖😖😖80831240Τα αφρικάνικα, που μου αρέσουν είναι για να χορεύεις. Αυτό θέλει άλλες συνθήκες και εγώ δεν κάνω τέτοια!!15Ήσυχο και μελωδικό κομμάτι από τον κύριο με τον μισό αχινό στο κεφάλι. Τον υπόλοιπο τον πάτησε ο gesoulix το περασμένο καλοκαίρι. Πες κι εσύ pavlos που έκανες την εγχείρηση. Μου άρεσε. Το τραγούδι, όχι η εγχείρηση. Θέλει ησυχία, ποτάκι και ηλιοβασίλεμα.8Αφού τα ξέρω όλα του Oryema... τί βαθμό να βάλω τώρα... αν δεν το είχα ακούσει ένα εκατομμύριο φορές θα έπαιρνε 12.07Νάτη πάλι η Αφρική, που ήρθε για να με συγκλονίσει! 6Πολύ ενδιαφέρουσα μουσική προσέγγιση  :rolleyes:  μου άρεσε #Το δικό μου ρε!
+
+
+00Λοιπον αυτο εδω πλακα πλακα το παιζει πολυ συχνα ο τοπικος σταθμος, ειναι τιγκα στους σομαλους DJ και για καποιο λογο αυτο εδω τους αρεσει πολυ.41PAV666The Rumjacks - An Irish Pub Songhttp://youtube.com/watch?v=tDTQQWSmo8s0Αν εμενε στο irish style μπορει και να σκοραρε μερικα μηδενικα πιο πανω. Αυτο δεν ειναι τραγουδι, απλα ο τραγουδιστης γρυλιζει απαγγελοντας. 😡😡😡2526Αχ μπυρούμπα, κοντομάνικο και συναυλία0712Μας αρέσει η ιρλανδική μουσική και ακόμη περισσότερο αυτό το ροκ κράμα. Απόψε έχει Guinness!!! Sláinte!!!!!!!4Ηρωικό σουξέ του ιρλανδικού πανηγυρτζίδικου πανκ. Απο τα πιο κλασσικά. Με χαλάει λίγο οταν υποβιβάζεται το rock και το punk σε soundtrack για μπύρες ή οταν ο "ροκάς" αποθεώνει ιρλανδικά πανηγυρτζίδικα λες και έχουν μεγάλη διαφορά με τα δικά μας νταούλια και χάλκινα. Πάλι τη μουσική του παππού σου ακούς ουσιαστικά. Οπισθοδρομείς. Κάπου βγάζει error το κεφάλι μου οταν το, ας πούμε το "προοδευτικό", "επαναστατικό" και "σκεπτόμενο" rock και punk, υιοθετεί τη μπαρμπαδίλα και τα πιο επιφανειακά στοιχεία της παράδοσης. Το να σ'αρέσει η μπύρα δεν είναι character trait. :D7Ααα τα ξωτικά κι οι Ιρλανδοί έχουν ιδιαίτερη σχέση! Χαρούμενο τραγουδάκι, μου αρέσει ο ρυθμός και το φλάουτο και μου θυμίζει το The Rose Tattoo των Dropkick Murphys που μου αρέσει πολύ. To βιντεοκλίπ μπορούσε να ναι καλύτερο. 0Κρίμα να μην έχω Ιρλανδέζικες ρίζες για να το εκτιμήσω δεόντως. Τα παιδιά πάντως φαίνονται καλά παιδιά. Όταν θελήσω να βάλω καμμιά βόμβα θα τους προτιμήσω για την εργολαβία.500Η εισαγωγή μου άρεσε... μόνο αυτή.4Βαθμός: 4
+
+Λίγο φωνακλάδικο Στρώνει με μπύρες.#12ΓΙΟ ΧΟ ΧΟ ΚΑΙ ΜΙΑ ΜΠΟΥΚΑΛΑ ΡΟΥΜΙ. 
+
+Ερώτηση: Κατι Dropkick Murphy's τι τους εχετε;01CIN597Amira Medunjanin - Zajdi, Zajdihttp://youtube.com/watch?v=m7MGChVJUEU3Ωχ αμαν αμαν. Για κλασσικοποιημενος αμανες καλο ειναι! Σαν να βοσκει τα προβατα με αρπα και φλαουτο...🐑🐑🐑🎼🎻#070820Δεν είναι του στυλ μου. Σίγουρα όμως θα το άκουγα ευχάριστα σε κανά κρασοπουλειό.3Πολύ φωνάρα. Πολύ δράμα.0Αχ η ξενιτιά το χαιρεταίίί... Και χωρίς τα ΣΙΓΑΝΑΑΑΑ της Τσαλιγοπούλου που νομίζεις ότι σ' έπιασε στα πράσα να κοιμάσαι. Παρόλ' αυτά πολύ καλύτερη φωνή και υποθέτω ότι μιλά για ευαίσθητα ζητήματα, άλλα δυστυχώς αρκετά βαρετό τραγούδι. 6Φωνάρα αλλά αδικείται με αυτά τα πεθαμένα κομμάτια. Εγώ θα την έβαζα να τραγουδήσει μαζί με Στανίση ή Τερλέγκα και θα γεμίζανε τα σκυλάδικα ακόμα και με τον κορωνοϊό.810Πριν διαβάσω πληροφορίες, κατάλαβα πως το τραγούδι είναι Γιουγκοσλάβικο. 'Εχει χαρακτηριστική μελωδία και ερμηνεία αυτών των λαών. Τα πρώτα μου ακούσματα, ήταν στην εφηβεία και λάτρεψα τη μουσική τους!
+Κι αυτό δεν αποκλίνει. Είναι υπέροχο!2Κάτι σαν ψαλμωδια σε θεία λειτουργία   :bless:0Βαθμός: 0
+
+Λυπάμαι...02η κοπελια εχει ασυλληπτη φωναρα!81SIS597Cosby - Folow The Leaderhttp://youtube.com/watch?v=gG1n9QLA4to1Ωραιοι στιχοι και νοημα...αλλα απο μουσικη εξαιρετικα ανεμπνευστο. Απλα ενα ποντακι για το μηνυμα.😉61200Καλύτερα Moby παιδιά που ξέρει, όχι Cosby156Για τα κλαρίνα σου μόνο!!! Δεν είναι ότι θα το ακούω και του χρόνου, αλλά με διασκέδασε.0Πάω να φάω μπριζόλες. Δε με συγκινεί το δράμα της.3Συμπαθητικό τραγούδι. Παραδόξως μου άρεσε την πρώτη φορά περισσότερο από τις υπόλοιπες που το άκουσα. Πολύ καλύτερο κουπλέ από ότι ρεφρέν (αλλά αυτό μου συμβαίνει συνήθως). Το βιντεοκλίπ μέτριο. Ωραία κοπελίτσα και η πίπιζα (τι είναι αυτό από πίσω).2Καλούτσικο, συνηθισμενούλικο, ήδη το ξέχασα.01Ευχάριστο, ρυθμικό.0[s]Άχρωμο[/s] έγχρωμο, άοσμο, άγευστο,  :innocent:12Βαθμός: 12
+
+Ανοζωογονητικό! 10#Αυτο ειναι το κολλημα της τελευταιας εβδομαδας. εξαιτιας του Ηρωα εννοειται. 01FRO549Moka Efti Orchestra ft. Severija - Zu Asche, Zu Staubhttp://youtube.com/watch?v=uekZpkYf7-E0Επισης ασυναρτητο. Πιο κινηματογραφικο θα ελεγα, αλλα σαν μουσικη χωρις το βιντεο δε μπορει να σταθει...😢😢😢384010#2Ωραίο, αλλά θα του έβαζα παραπάνω αν ήταν λίγο πιο απλό και μαζεμένο.0Εντυπωσιακό, συνολικά, αλλά αν δεν έχει δει κανείς τη σειρά, για context, δεν έχει τίποτα αξιομνημόνευτο σαν τραγούδι απο μόνο του.2Δεν έχω δει τη σειρά. Το ρεφρέν μου φάνηκε πολύ οικείο και ωραίο, το υπόλοιπο ήταν λίγο αργό. Έχει καλή μελωδία αλλά αργεί να φτάσει εκεί. Να πω και το άσχετό μου: σαν τον τραγουδιστή νομίζω ότι θα έμοιαζε ο αδελφός της Σμαράγδας Καρύδη, αν είχε. Σαν φάτσα μου μοιάζει με γυναίκα αρκετά, αλλά σαν φωνή με άντρα. Τι είναι;0Τίντουτο; Σα μεταμοντέρνα εκδοχή της Λιλί Μαρλέν μοιάζει. Κάτι σαν τον Λάνθιμο να σκηνοθετεί Νατάσα Παζαΐτη στο "Καμπαρέ". Μόνο και μόνο για τον WTF factor θα έπρεπε να πάρει κάτι, αλλά οι υποψήφιοι ήταν πολλοί και οι θέσεις λίγες.60
+3Χμμμ,  :confused:  καλό θα έλεγα   :rocker: 5Βαθμός: 5
+
+Διαφορετικό26Περιττο να πω οτι η σειρα απλα τα σπαει ετσι;31STR4810Sarper Duman & Aslıhan Batur - Brokenhttp://youtube.com/watch?v=HizX-kBsFfQ0Ωραια μελωδιουλα! Σα να την εχει συνθεσει 10χρονος. Πονταρει μαλλον στην απλοτητα αλλα δεν υπολογισε τη βαρεμαρα... 😵😵😵5200610Δύσκολα μου αρέσουν τα κομμάτια χαμηλών τόνων και αυτό μου φάνηκε και λίγο παραπάνω κλαψιάρικο από όσο θα ήθελα.08Μουσική δωματίου. Ωραίο κομμάτι. Τυχεροί οι γείτονες. Εγώ συνήθως προτιμώ τα τραγούδια που έχουν στίχους. Εδώ δεν με χάλασε καθόλου η απουσία τους. Από πίσω ποιο κάστρο να ναι το φωτισμένο; Ο καμεραμάν δεν φαίνεται στην αντανάκλαση στο τζάμι. Παρά τις βλακείες που γράφω, το άκουσα όντως και μου άρεσε 😁0Νομίζω ότι η συγκεκριμένη σύνθεση είναι ελλιπής όπως παρουσιάζεται. Χρειαζόταν άλλο ένα όργανο, για την ακρίβεια έναν τύπο ανάμεσα στο βιολί και το πιάνο που να κλαίει με γοερά αναφυλλητά. Όπως είναι όμως, δεν μπορώ να δώσω παραπάνω από 0. Και αυτό χαριστικά.105Γλύκα!8Απαλό, μελωδικό, ένας κλασικός συνδυασμός πιάνο και βιολί, με καλό ακουστικό αποτέλεσμα στο συγκεκρμένο κομμάτι, μου άρεσε.0Βαθμός: ο
+
+
+Καλό, σαν τα τούρκικα σήριαλ που έβλεπα.30Θα κανω το πιο ασχετο σχολιο του μηνα τωρα αλλα μου πηρε ενα διλεπτο να καταλαβω οτι ο τυπος επαιζε πιανο, νομιζα οτι ηταν στο νεροχυτη και κατι εκανε - επλενε χορτα ξερωγω να πουμε - εχω του επαιζε η κοπελια βιολί αποπανω. Μα συγνωμη, ειναι πιανο τωρα υτο; Στο μαστερ σεφ στα πλατα το γυρισανε το βιδεο;#1FER4511Andrea Litkei & Ervin Litkei - Chica Mejicanitahttp://youtube.com/watch?v=Uk4XINEyLSA0Και λεω... Παμε για να τον κουνησουμε... Και μετα ξεκιναει η τυπισσα το τραγουδι: Τσικι τσικι, τσικι τσικα, κατσικι, κατσικα.... και δως του τσικι, κατσικι και σε καθε "τσι" να μου φευγουν τα σφραγισματα απο την τσιριδα! Σαν να    μασαω αλουμινοχαρτο!!! Ανυποφορο...😱😱😱0464Ολέ!#05Εδώ θα πιω με desperados και θα λικνιστώ!! Love it!!0Η μουσική που παίζουν καφετέριες και με κάνουν να θέλω να φύγω. Μονοδιάστατα χαζοχαρούμενη, και με σπαστικές επαναλαμβανόμενες φράσεις τρομπέτας με τερματισμένη δυναμική μονίμως. Η καγκουριά της εποχής της. Η ύπαρξη αυτής της μουσικής, δίνει πάτημα στη σημερινή μουσική σαβούρα να δικαιολογεί την ύπαρξη της (πχ, "να και τέτοια παλιά τραγούδια δεν είχανε και κανένα τρομερό συναισθηματικό βάθος, και οι στίχοι λέγανε ασυναρτησίες και δεν ήταν και οι πιο περίτεχνες συνθέσεις, αλλα μια χαρά τα χορεύανε, τι σε χαλάει ο Sin Boy τώρα;").6Ευχάριστο, κεφάτο και θεατρικό τραγουδάκι. Μου άρεσε. Την πρώτη φορά που το άκουσα σκέφτηκα κατευθείαν το Ένα χρυσόψαρο μέσα στη γυάλα. Δεν ξέρω γιατί. 7Ως λάτιν, θα τσιμπήσει το κάτιτις του. Εμείς οι λιγοστοί Λατίνοι πρέπει να αλληλοϋποστηριζόμαστε.200Τσικα, μετζικανιτα... και πατατάκια τσικίτα  2Βαθμός: 2
+
+Ανάλαφρο...45Το εχω ζησει νταουνταουν ακριβως οπως στο βιντεο αλλα μεπερισσοτερο κοσμο στο μαγαζι ΟΛΕ !😁01NOV4412Original Cast 2006 - A Città 'e Pulecenellahttp://youtube.com/watch?v=RCXKPYrzgGo8Παμε παραλια! Μoυ θυμισε λιγο Clandestino απο Manu Chao. 🚗🚢🚤🏊0000303Αχ Τοσκάνη!!! Διάβασα ότι είναι για τη Νάπολη, αλλά στο μυαλό μου έρχεται ένα υπέροχο καλοκαίρι στα περίχωρα της Φλωρεντίας.0Αν το στερεότυπο του boomer είχε ένα και μόνο μουσικό αντίστοιχο, θα ήταν αυτό.0Μου θύμισε τραγούδια καρναβαλιού παρόλο που ναι Ιταλικό. Χαριτωμένο, νοσταλγικό αλλά μου φαίνεται αρκετά συνηθισμένο σαν ήχος.3Όπως θα έλεγε κι ο Νικολαΐδης "κουέστα σερενάτα κον ουν φιλ ντι βότσε, σι πουό καντάρ ουν ιναμοράτο, αλ ιναμοράτα, λα σουσουρελά, λα σουσουρελά". 
+
+Δεν έχω να προσθέσω κάτι στα σοφά του λόγια.74Φανταστικό, κεφάτο τραγούδι!#''Στην εποχή του κορωνοϊού''
+Αρχές Μαρτίου, και η Ιταλία μετρώντας εκατόμβες νεκρών έχει μπει σε καραντίνα. Οι Ιταλοί βγαίνουν στα μπαλκόνια τους και τραγουδάνε εμψυχώνοντας ο ένας τον άλλο. Πολλά βίντεο κυκλοφόρησαν στο διαδίκτυο, ένα από αυτά ήταν από την Νάπολι   <a target="_blank" href="https://www.youtube.com/watch?v=iAPXqbP2sc4">https:/…XqbP2sc4</a>   όπου σε κάποια γειτονιά ένας Ναπολιτάνος έχει βάλει δυνατά τη μουσική και μικροί και μεγάλοι έχουν βγει στα μπαλκόνια και τραγουδάνε το  ''A Città 'e Pulecenella'',  τότε το πρωτοάκουσα και μου άρεσε. Είπα λοιπόν να ξεκινήσω το παιχνίδι στην εποχή του κορωνοϊού με αυτό το κομμάτι.  (Κανονικά είχα σκοπό να βάλω άλλο)
+
+Το "A Città 'e Pulecenella”, είναι ένα τραγούδι αφιερωμένο στη Νάπολη, που γράφτηκε από τον Claudio Mattone για την ταινία "Scugnizzi" του 1989.  
+Ο Πουλτσινέλα (Pulcinella), είναι ένας χαρακτήρας που προέρχεται από την Commedia dell'arte του 17ου αιώνα, τη λαϊκή ιταλική αυτοσχεδιαστική κωμωδία. Τούτος ο Πουλτσινέλα, ένας βασικός χαρακτήρας του ναπολιτάνικου κουκλοθέατρου, αντιπροσωπεύει τον απλό άνθρωπο που προσπαθεί να αντιμετωπίσει όλα του τα προβλήματα με ένα χαμόγελο. Κάνει πλάκα με τους πιο δυνατούς και είναι πάντα έξυπνος. Του είναι επίσης δύσκολο να μείνει σιωπηλός, γι' αυτό και υπάρχει αυτή η έκφραση στην Ιταλία “Il segreto di Pulcinella”, Το μυστικό του Πουλτσινέλα, το λες όταν θέλεις να περιγράψεις κάτι που όλοι το ξέρουν. Σαν να φώναζε η Ιταλία, το μυστικό του Πουλτσινέλα. Δεν θα λυγίσει. Και παίρνει δύναμη και θάρρος. 
+<a target="_blank" href="https://www.novasports.gr/epikairotita/article/1749081/a-citt%C3%A0-e-pulecenella-akougetai-dunata-stin-italia-kai-dinei-tharros-pics-%26-video">https:/…26-video</a> 0βαθμός: 0
+
+Δεν έμειναν βαθμοί.60101MOU4013Cabaret - Geampara · Gothart (Romania)http://youtube.com/watch?v=E7-YuPN7hOo5Πολλα υποσχομενο στην αρχη.. Αλλα πολυ μονοτονο. Με λιγη περισσοτερη ποικιλια θα πηγαινε πιο πανω! 🐑🐑🐑10Παίζουν ποντιακά στη Ρουμανία;
+Ως κατά το 1/4 πόντιος, ζητώ συγγνώμη για τη "μουσική" που οι πρόγονοί μου προσέφεραν στον κόσμο.
+
+Τουλάχιστον μας σώζουν κάπως τα ποντιακά ανέκδοτα
+50704Κάπου βαθιά μέσα μου πρέπει να έχω ποντιακή ρίζα, μπορεί και θρακιώτικη, δεν ξέρω. Αλλά είναι ξεσηκωτικό!! 00Αυτό είναι σαν ποντιακό. Συμπαθητικό, κεφάτο, αλλά δεν μου έκανε ούτε κρύο, ούτε ζέστη. Δεν νομίζω να το θυμόμουν αν το έχω ξανακούσει ή όχι. 0Ακούστηκε ως αγωνιώδης προσπάθεια κάποιου να ενεργηθεί. Χαίρομαι που στο τέλος τα κατάφερε ο άνθρωπος. Αν κατάλαβα καλά από τα λίγα Ρουμάνικα που ξέρω, μάλλον χρησιμοποίησε υπόθετα γλυκερίνης; Ας είναι όμως, τέλος καλό όλα καλά.#8Πάλι βαλκανική υπέροχη μουσική! 'Εχω μεγάλη αδυναμία σ' αυτό το είδος μουσικής και έχω ασχοληθεί πολύ. Πώς να τα ξέρω όμως όλα; Ευχαριστώ θερμά!0Κάτι σαν κριτικό - ποντιακό, αλλά δεν μ' αρέ   :nono:0Βαθμός: 0
+
+Για άλλη φάση...03αυτο αρεσε στον αντρα μου. 71JUM3614The Police - Bring On The Nighthttp://youtube.com/watch?v=YVgWQyGOTvk0Ασυναρτητο! Η φωνες κουραζουν, η μελωδικη γραμμη ανυπαρκτη. Θορυβος!😨😨😨41012Κομματάρα, μου φέρνεικαι αναμνήσεις :P030Ωραίοι οι Police, αλλά το συγκεκριμένο κομμάτι δεν με ξετρέλανε.#1Μπάτσοι που γουστάρουν βραδινή περιπολία; Ήσυχο, μελωδικό τραγούδι. Ελπίζω να μου μείνουν βαθμοί να του δώσω.1Κάπου τους ξέρω αυτούς... το συγκρότημα του Paul Newman και του Robert Redford δεν είναι; Ως φόρο τιμής στους δύο σπουδαίους ηθοποιούς θα πάρει τον άσσο.02Ξετρελάθηκα! Δεν το γνώριζα.7Από τα πολύ αγαπημένα μου συγγροτήματα οι Police, είχα όλους τους δίσκους τους (βινυλιο τότε) και τους είχα λειώσει.
+Τώρα, για το ''Bring on the night'' θα έλεγα ότι είναι καλό, όχι όμως κάτι το ιδιαίτερο. 0Βαθμός: 0
+
+Δυστυχώς...00απο τη συλλογη "ημουνα νια και γερασα, τι ομορφα τα περασα"51ARI3115Εισβολέας - Σεμέλη Παπαβασιλείου - Δικτύωσηhttp://youtube.com/watch?v=4rIMM4Ibtx0#00Η πολυαναμενόμενη συνέχεια στους κοινωνικούς προβληματισμούς που πρωτοδημιουργήθηκαν σε όλους μας με το αριστούργημα της Αννούλας για το κινητό τηλεφωνάκι που της άδειαζε κάθε λίγο και λιγάκι. Αυτή το αγαπούσε, αυτή το φρόντιζε και τις μπαταρίες του μ'αγάπη τις γεμίζε x2...δικό σας
+
+<a target="_blank" href="https://www.youtube.com/watch?v=-H-6q8UXFFA">https:/…6q8UXFFA</a>01007Ναι!!!!! Χωρίς να είναι το αγαπημένο μου είδος, μου άρεσε γιατί είναι χαβαλεδιάρικο.7Αυτο το άλμπουμ πολύ το χάρηκα. Την εποχή που έκανε το μεγάλο μπαμ το mainstream trap στην Ελλάδα με Snik, Sin Boy, κλπ, ο Είσβο έβγαλε το πιο μουσικό του άλμπουμ. Full ενορχηστρωμένες συνθέσεις, κανονικά τραγούδια, groove, μελωδία και κάθε τραγούδι και μια έκπληξη. Και εννοείται δε το άκουσε σχεδόν κανείς, ενώ ο Sin Boy χτυπούσε 50 μύρια views.4Αυτό δεν είναι καθόλου το στιλ μου και παίζει να ντρεπόμουν να με πιάσουν να το ακούω, αλλά έχω γελάσει πάρα πολύ με αυτό το τραγούδι. Δεν τα λέει κι άσχημα όσον άφορά το νόημα. Η κοπέλα είναι για ρεμπέτικο/λαϊκό (κι όντως τέτοιο τραγουδάει λίγο που την είδα (<a target="_blank" href="https://www.youtube.com/watch?v=0sDlGT7VTA8">https:/…lGT7VTA8</a>).4Μόνο και μόνο για την ευρηματικότητα της ομοιοκαταληξίας "κοινωνική" με "αντικοινωνική". Πού το σκέφτηκαν οι κερατάδες!000 :dance4:  :mpliax:  3βαθμός: 3
+
+Λίγο σαν σαλάτα μου ακούστηκε... Το λαϊκό μέρος μου άρεσε περισσότερο.14Καλα, δε θα κανω εκπομπη στον τοπικο σταθμο καμμιαν ωρα; 😂😋θα παιξει πρωτο πρωτο 😝01EMM3016Daniel Lanois - Acadiehttp://youtube.com/watch?v=1GH4FF5o7VM7Συμπαθητικο... Οχι για 7αρι βεβαια (πιο πολυ για 5αρι το κοβω) αλλα ελλειψει αλλων αξιολογων ακουσματων...🎶🎶🎶03#5Χρυσό 5άρι500Ωραίο κομμάτι και ιστορία. Οριακά δεν το βαθμολόγησα, όχι ότι θα πήγαινε ψηλά.5Not bad, not great.0Ο ρυθμός στα τύμπανα είναι σαν εμβατήριο της Αμερικής του Νότου. Ο κυριούλης πρέπει να να εκείνος που κληρονόμησε τελικά το παλιό παλτό του Δάντη. Δεν με τρέλανε, δεν ξέρω γιατί.0Τον είχα αυτόν τον δίσκο. Απ'ότι θυμάμαι είχε και καλύτερα τραγούδια. Κάτι θα του έδινα αλλά δεν είχα άλλα ψιλά πάνω μου και τα χοντρά τα είχα χαλάσει.401 :bored: 0Βαθμός: 0
+
+
+Δεν μου έκανε κλικ
+0001DRH2817Candlemass - Solitudehttp://youtube.com/watch?v=UZjuzPU9UE40Decent προσπαθεια για μεταλ... μεχρι που αρχισε να φαλτσαρει! Φαλτσαρε η φωνη αλλα το χειροτερο ηταν οτι φαλτσαραν και τα οργανα. Δεν ειναι να απορεις με τον τιτλο. Προφανως και μεινατε μονοι... το κοινο εφυγε...😩😩😩0#08Μαύρη μαυρίλα όμορφη000Μου αρέσει η ροκ, μου αρέσει κ λίγο η μέταλ, αυτό όμως ξεφεύγει από τα ακούσματά μου.8Ίσως το μόνο τραγούδι που έχω ακούσει ποτέ απο Candlemass και όντως μου άρεσε πολύ. Πραγματικά μελαγχολικό doom metal. Μετά πήρανε τον σαλτιμπάγκο τον Messiah και γίνανε τσίρκο. Και εννοείται οι μεταλλάδες τότε τους κάνανε μεγάλους και τρανούς, γιατί εκεί που σταματάει η καλαισθησία ξεκινάει το γούστο του μεταλλά.0Αυτό αν και μου άρεσε που ήταν ροκ, σε πολλά σημεία το βαρέθηκα και σε μερικά άλλα μου φάνηκε κάπως έντονο. Μου θύμιζε λίγο ηπειρώτικα στο ρυθμό, σαν τους VIC, των οποίων ωστόσο δεν είμαι πολύ φαν. Μου άρεσε περισσότερο την πρώτη φορά που το άκουσα.5Τραγουδάκι χαρούμενο, ανεβαστικό, καλοκαιρινό, ό,τι πρέπει για παραλία και για παραθαλάσσια πάρτυ. 000  :swoon:  πάντως στα πρώτα 40' καλά το πήγε1Βαθμός:  1
+
+Σκοτεινό...50😵😵Γαβρακο παιδι μου μου ελειψες 😱😋11MIC1818Pouriya Raisi - Huzûrhttp://youtube.com/watch?v=HLe-oRtYAEM0Οπως τα λεει ο τιτλος. 8 λεπτα χουζουρι. Ο τυπας τζαμαρει και γουσταρει αλλα δε μας ρωτησε (οχι οτι θα 'πρεπε κιολας). Εξααιρετικη δεξιοτεχνια ιδιως στο δεξι... αυτα. Κατα τα αλλα 😵😵😵70Και έλεγα ότι από κάπου τον θυμάμαι τον καλό κυριούλη.
+
+<a target="_blank" href="https://video-images.vice.com/articles/5b54ed2038c9820007aee490/lede/1532292483108-sehidis.jpeg">https:/…dis.jpeg</a>
+
+Ένα υπέροχο κομμάτι για να ηρεμήησεις και να huzurέψεις10000Ο τύπος πρέπει να είναι δεξιοτέχνης, αλλά η μελωδία δε μου άρεσε.0Ένας τυπάς αράζει οκλαδόν σε ένα δάσος και τζαμάρει με τον ταμπουρά του. Exciting times.0Παιδιά βαρέθηκα φοβερά στην αρχή. Αφού έπιασα τον εαυτό μου να σκέφτεται αν το δέντρο ήταν μπονσάι, πόσο μικροσκοπικός θα έπρεπε να ήταν αυτός ο άνθρωπος; 😂
+Πιστεύω ότι αν είχε αρκετά μικρότερη εισαγωγή, θα ωφελούνταν πολύ περισσότερο. 
+Αργότερα γίνεται πολύ καλύτερο με τα γυρίσματά του. Τώρα θα μου πείτε έπρεπε να το χτίσει. Εντάξει αλλά δεν έχουμε κι όλη την ημέρα. Πάντως μ' έναν διπλό ελληνικό, λουκουμάκι κι αργιλέ το άκουγα άνετα. Άλλα και πάλι απορώ δεν τον 'φάγαν τα μυρμήγκια τόση ώρα εκεί κάτω; Το όργανο τι είναι; Λα(γ)ούτο και το πήγε στο δάσος; Gesoulix, φαντάσου το σε εκτέλεση με τον Ατζαράκη. Ήθελα θα του δώσω κανάν βαθμό, αλλά δυστυχώς δεν μου περίσσεψαν#36Πωπω ρε φίλε! Πόσο καταπληκτικό όργανο είναι αυτό και με πόση δεξιοτεχνία, πάθος και λυρισμό παίζει ο τύπος! Εξαιρετική, και η μελωδία!0Οκτώμιση λεπτά για χουζούρεμα, δεν τα λες και πολλά...  
+Οκτώμιση λεπτά για να κάτσεις να ακούσεις αυτό το κομμάτι δεν τα λες και λίγα...   0Βαθμός: 0
+
+
+Αδύναμο...01Συγνωμη αλλα αυτο το λεει "χουζουρι"; Αγριευτηκα!0`;
+
+}
+
+</script>
+
+
+</body>
+</html>
