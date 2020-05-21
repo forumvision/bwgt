@@ -276,8 +276,16 @@ body.appendChild(scrollableContainer);
 		}
 
 		function getTextValue(el) {
-
-			return normalizeString(el.textContent);		  
+			
+			
+			
+			
+			
+			if (el.className == "sco") {
+				return normalizeString(el.textContent.substring(0, el.innerHTML.indexOf("<span")));
+			} else {
+				return normalizeString(el.textContent);
+			}
 		}
 
 		function compareValues(v1, v2) {
